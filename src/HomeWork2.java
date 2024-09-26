@@ -30,7 +30,7 @@ public class HomeWork2 {
         System.out.printf("Разность:" + MathOperations.difference(numberOne, numberToo));
         System.out.println(" ");
         System.out.printf("Произведение:" + MathOperations.product(numberOne, numberToo));
-        System.out.println("  ");
+        System.out.println(" ");
         System.out.printf("частное:"+ MathOperations.quotient(numberOne, numberToo));
 
         }
