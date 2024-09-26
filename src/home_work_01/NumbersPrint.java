@@ -1,3 +1,5 @@
+package home_work_01;
+
 public class NumbersPrint {
     public static void main(String[] args) {
         int number = 777;

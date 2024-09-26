@@ -1,3 +1,5 @@
+package home_work_02;
+
 public class MathOperations {
     public static double summa(double a, double b) {
         return a + b;
