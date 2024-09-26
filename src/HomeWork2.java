@@ -18,7 +18,7 @@ public class HomeWork2 {
         System.out.println(strLower);
 
 
-        System.out.println("№ 2");
+        System.out.println("№ 2 ");
         Scanner in = new Scanner(System.in);
         System.out.println("Введите целое число типа Int");
         double numberOne = in.nextInt();
