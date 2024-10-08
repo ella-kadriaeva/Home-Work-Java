@@ -6,7 +6,6 @@ public class Watch {
     public static void main(String[] args) {
         Random rand = new Random();
         int secTime = rand.nextInt(0, 28800);
-        System.out.println(secTime);
         runHourTime(secTime);
     }
 
