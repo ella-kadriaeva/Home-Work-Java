@@ -14,16 +14,17 @@ public class Task3 {
     //        2. Напечатайте все буквы из строки, игнорируйте знаки препинания ?, !, ., ,’ и пробел
     private static void getLetters(String str) {
         for (int i = 0; i <str.length(); i++) {
-            if(str.charAt(i) == '?' || str.charAt(i) == '!' || str.charAt(i) == '.' || str.charAt(i) == ',' || str.charAt(i) == ' '|| str.charAt(i) == '’') {
-                continue;
-            }
-            char letter = str.charAt(i);
-            System.out.print(letter);
-            System.out.print(',');
+          if (isLetter(str.charAt(i))) {
+              char letter = str.charAt(i);
+              System.out.print(letter);
+              System.out.print(',');}
         }
     }
 
+    public static boolean isLetter(char let) {
+    return  let != '?' && let != '!' && let != '.' && let != ',' && let != ' ' && let != '’';
 
+    }
 
 
 }
