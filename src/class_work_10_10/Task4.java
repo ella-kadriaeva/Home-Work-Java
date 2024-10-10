@@ -12,7 +12,7 @@ public class Task4 {
     private static void getEven(int num1, int num2) {
         int count =0;
         for (int i = num1; i <= num2; i++) {
-            if(count >=25) {
+            if(count ==25) {
                 break;
             }
             if (i % 2 == 0 && i%10 !=0) {
