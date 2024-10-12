@@ -17,7 +17,8 @@ public class Task3 {
           if (isLetter(str.charAt(i))) {
               char letter = str.charAt(i);
               System.out.print(letter);
-              System.out.print(',');}
+              System.out.print(',');
+             }
         }
     }
 
