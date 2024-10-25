@@ -1,4 +1,13 @@
 package home_work_01;
+//https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf горячие клавиши Intellij Idea
+//
+//и книги по java
+//http://uchcom7.botik.ru/L/prog/java/java_2_tom_1_8-e_izd.pdf
+//http://uchcom7.botik.ru/L/prog/java/java_2_tom_2_8-e_izd.pdf
+//https://library.bsuir.by/m/12_101945_1_131228.pdf
+//GitHub
+//GitHub - tel-ran-de/130824-m-basic-java: 130824-m-basic-java
+//130824-m-basic-java. Contribute to tel-ran-de/130824-m-basic-java development by creating an account on GitHub.
 
 public class Main {
     public static void main(String[] args) {
